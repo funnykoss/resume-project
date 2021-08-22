@@ -2,3 +2,136 @@ body {
   background-color: #fff;
   color: #2a2a2a;
 }
+h1,
+h2,
+h3,
+li,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1280px;
+  padding-right: 115px;
+  padding-left: 115px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.basic-information {
+  /* width: 1455px; */
+  padding-left: 40px;
+  padding-bottom: 145px;
+  padding-top: 40px;
+}
+
+.summary {
+  padding: 20px;
+  background-color: #373741;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.section-title-summary {
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.title-name {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+}
+.title-vacancy {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+}
+.section-title {
+  color: #fff;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #373741;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.section-text {
+  width: 600px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.section {
+  padding-bottom: 40px;
+}
+.project-link {
+  font-weight: 400;
+  color: #000;
+  font-size: 16px;
+}
+.project-text {
+  width: 600px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.position {
+  width: 600px;
+  font-size: 18px;
+}
+.employer {
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.work-item {
+  width: 600px;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-left: 20px;
+}
+.work-place {
+  margin-bottom: 20px;
+}
+.sidebar {
+  padding-top: 45px;
+  background-color: rgb(206, 195, 161);
+}
+.sidebar-title {
+  color: #fff;
+  width: 300px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: #373741;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.sidebar-item {
+  padding-left: 20px;
+}
+
+.sidebar-section {
+  padding-bottom: 20px;
+}
+.sidebar-list:not(:last-child) {
+  margin-bottom: 5px;
+}
+.sidebar-list {
+  margin-left: 20px;
+}
